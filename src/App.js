@@ -9,19 +9,15 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>ADMINISTRADOR DE PACIENTES</h1>
-        
-        <div style={{display:"flex", flexDirection: "row"}}>
-          <div style={{width: "50%"}}>
+          <div className='one-half column'>
             <h2>Crear cita</h2>
             <FormCita citas={citas} setCitas={setCitas}></FormCita>
           </div>
-          <div style={{width: "50%"}}>
+          <div className='one-half column'>
             <h2>Administra citas</h2>
             <Listado citas={citas} setCitas={setCitas}></Listado>
           </div>
-        </div>
+      
       </header>
     </div>
   );
