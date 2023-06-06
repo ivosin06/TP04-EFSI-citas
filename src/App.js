@@ -17,9 +17,8 @@ function App() {
             <h2>Administra citas</h2>
             <Listado citas={citas} setCitas={setCitas}></Listado>
           </div>
-      
-      </header>
-    </div>
+      </div>
+    
   );
 }
 
